@@ -1,0 +1,9 @@
+.title-heading::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 30px;
+  height: 6px;
+  width: 40px;
+  background-color: #ffb400;
+}

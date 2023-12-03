@@ -1,0 +1,8 @@
+
+.custom-radial.radial-progress::before {
+  inset: -10px;
+}
+.custom-radial.radial-progress:after {
+  transform: rotate(calc(var(--value) * 3.6deg - 90deg))
+    translate(calc(var(--size) / 2 - -50%));
+}
