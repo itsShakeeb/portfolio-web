@@ -39,7 +39,7 @@ const Dark = () => (
 );
 
 const ToggleMode = () => {
-  const { colorTheme, setTheme } = useToggleMode();
+  const [colorTheme, setTheme] = useToggleMode();
 
   return (
     <label

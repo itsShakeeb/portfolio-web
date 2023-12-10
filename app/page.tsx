@@ -13,15 +13,17 @@ export default function Home() {
           <div className="flex justify-center items-center">
             <section className="relative w-1/2">
               <h1 className="uppercase title-heading font-bold text-[2rem] mb-3 ml-[70px] text-[#ffb400]">
-                I'm Shakeeb Arsalan.
+                I&apos;m Shakeeb Arsalan.
                 <br />
-                <span className="dark:text-white text-[#111]">Software Engineer</span>
+                <span className="dark:text-white text-[#111]">
+                  Software Engineer
+                </span>
               </h1>
               <p className="text-[1rem] dark:text-white text-[#111] tracking-wider">
-                I'm a Delhi based web designer & front‑end developer focused
-                on crafting clean & user‑friendly experiences, I am passionate
-                about building excellent software that improves the lives of
-                those around me.
+                I&apos;m a Delhi based web designer & front‑end developer
+                focused on crafting clean & user‑friendly experiences, I am
+                passionate about building excellent software that improves the
+                lives of those around me.
               </p>
             </section>
           </div>
